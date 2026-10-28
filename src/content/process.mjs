@@ -1,0 +1,23 @@
+export const process = [
+  { n: '01', title: 'Discovery', summary: 'Understand the problem before proposing a solution.',
+    expect: 'A conversation about goals, audience, constraints and what success should look like. We ask direct questions and challenge assumptions politely.',
+    outputs: ['Project brief', 'Success criteria', 'Risks and open questions'] },
+  { n: '02', title: 'Research and direction', summary: 'Ground decisions in evidence.',
+    expect: 'Review of the existing site or system, comparable approaches and relevant user needs. We set a clear creative and technical direction.',
+    outputs: ['Audit or research summary', 'Direction document', 'Proposed scope'] },
+  { n: '03', title: 'Architecture and planning', summary: 'Decide how it will be built and in what order.',
+    expect: 'Structure, content model, technology choices and a staged plan. Trade-offs are explained in plain language.',
+    outputs: ['Sitemap or system outline', 'Technical approach', 'Milestone plan'] },
+  { n: '04', title: 'Design and prototyping', summary: 'Make the idea tangible early.',
+    expect: 'Visual direction, key screens and interaction prototypes you can react to. Feedback happens on real, clickable material.',
+    outputs: ['Design system foundations', 'Key page or screen designs', 'Interactive prototype where useful'] },
+  { n: '05', title: 'Engineering', summary: 'Build in small, reviewable increments.',
+    expect: 'Working software delivered in stages so you can see progress, not only a final reveal.',
+    outputs: ['Staging environment', 'Source code in your repository', 'Regular progress notes'] },
+  { n: '06', title: 'Testing and refinement', summary: 'Check it properly, then improve it.',
+    expect: 'Cross-device testing, accessibility review, performance checks and a structured round of refinements.',
+    outputs: ['Test notes', 'Accessibility and performance review', 'Resolved issue list'] },
+  { n: '07', title: 'Delivery and improvement', summary: 'Launch carefully and keep learning.',
+    expect: 'A launch plan, documentation and a handover. Ongoing improvement can continue as a separate arrangement.',
+    outputs: ['Launch checklist', 'Handover documentation', 'Post-launch review'] }
+];
